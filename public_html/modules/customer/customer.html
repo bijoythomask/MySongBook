@@ -1,0 +1,64 @@
+
+
+
+<md-content layout="column" flex class="md-padding">
+
+    <div ng-controller="srs.customerListCtrl" layout="column">
+
+        <md-toolbar layout="row">
+            <h2 class="md-toolbar-tools">
+                <span>Customers</span>
+            </h2>
+        </md-toolbar>
+        <md-content  style="height:570px">
+
+            <md-card ng-repeat="customer in customers">
+                <div layout ="row" >
+                    <div flex="10" layout ="row" layout-align="start center">
+                        <div>
+                            <md-icon md-svg-src="img/icons/profile.svg"  ></md-icon>
+                        </div>
+                    </div>
+                    <div flex="60" layout ="row"  layout-align="start center">
+                        <h3><span>{{customer.firstName}}</span> <span>{{customer.lastName}}</span></h3> </h2>
+                    </div>
+                    <div layout ="row" flex layout-align="end center">
+                        <md-button class="md-accent" ng-href="#/customer_edit/{{$index}}">
+                            <md-icon md-svg-src="img/icons/ic_mode_edit_48px.svg"  ></md-icon>
+                        </md-button>
+                    </div>
+                </div>
+                <md-divider></md-divider>
+                <md-card-content>                                                     
+                    <md-content  layout="row" layout-sm="column" style="font-size:1.2em">
+                        <md-container>
+                            {{customer.email}}
+                        </md-container>
+                    </md-content>
+                    <md-container flex>
+                        <p>{{customer.address}}</p>
+                    </md-container>
+                    <div layout layout-sm="column">
+                        <md-container flex>
+                            {{customer.city}}
+                        </md-container>
+                        <md-container flex>
+                            {{customer.state}}
+                        </md-container>
+                        <md-container flex>
+                            {{customer.postalCode}}
+                        </md-container>
+                    </div>
+                    <md-content flex>
+                        <p>{{customer.notes}}</p>
+                    </md-content>
+                </md-card-content>
+            </md-card>
+        </md-content>
+    </div>
+
+</md-content>
+
+
+
+
