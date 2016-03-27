@@ -1,13 +1,13 @@
-<div ng-controller="smartapps.mysongbook.songAddController as songCntrlAdd">
-    <form name="addSongForm" ng-submit="save()" >
+<div ng-controller="smartapps.mysongbook.songEditController">
+    <form name="editSongForm" ng-submit="update()">
 
         <md-toolbar >
             <div class="md-toolbar-tools">
                 <h1 class="md-toolbar-tools">
-                    <span>Add new song to the book</span>
+                    <span>Update song</span>
                 </h1>
                 <span flex></span>
-                <md-button class="md-icon-button" aria-label="More">
+                <md-button class="md-icon-button" aria-label="addStansa" ng-click="addStansa()">
                     <md-icon md-svg-icon="img/icons/folder-plus.svg"></md-icon>
                 </md-button>
             </div>
@@ -54,7 +54,7 @@
         </md-content>
         <div>
             <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button  type = "submit" class="md-raised md-primary" >Save</md-button>
+                <md-button  type = "submit" class="md-raised md-primary" >Update</md-button>
                 <md-button class="md-raised">Cancel</md-button>
             </section>
         </div>

@@ -25,14 +25,14 @@ angular.module('srs.customer', [
         .controller('srs.customerEditCtrl', customerEditCtrl);
 
 customerListCtrl.$inject = ['$scope', 'Customer'];
-customerNewCtrl.$inject = ['$scope','$location', 'Customer'];
-customerEditCtrl.$inject=['$scope','$routeParams','$location','Customer'];
+customerNewCtrl.$inject = ['$scope', '$location', 'Customer'];
+customerEditCtrl.$inject = ['$scope', '$routeParams', '$location', 'Customer'];
 
 
-function customerNewCtrl($scope,$location, Customer) {
-    
+function customerNewCtrl($scope, $location, Customer) {
+
     $scope.customers = Customer;
-    
+
     $scope.user = {
         firstName: '',
         lastName: '',
@@ -42,7 +42,7 @@ function customerNewCtrl($scope,$location, Customer) {
         state: '',
         postalCode: ''
     };
-    $scope.save = function(){
+    $scope.save = function () {
         $scope.customers.$add($scope.user);
         $location.path('/customer');
     };
@@ -50,22 +50,22 @@ function customerNewCtrl($scope,$location, Customer) {
 
 
 function customerListCtrl($scope, Customer) {
-    
+
     $scope.customers = Customer;
-    
+
 }
 
-function customerEditCtrl($scope, $routeParams ,$location, Customer){
+function customerEditCtrl($scope, $routeParams, $location, Customer) {
     var index = $routeParams.index;
     console.log(index);
-    $scope.customers =Customer;
-    $scope.user = $scope.customers+
+    $scope.customers = Customer;
+    $scope.user = $scope.customers +
             [index];
     console.log($scope.user);
-    $scope.update = function(){
+    $scope.update = function () {
         $scope.customers.$save($scope.user);
         $location.path('/customer');
     };
-    
+
 }
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<div ng-controller="smartapps.mysongbook.songListController">
+    <md-card >
+        
+        <md-card-title>
+                    <md-card-title-text style="margin-left: 20px;margin-top: 20px;">
+                        <span class="md-headline">{{song.songTitle}}</span>
+                    </md-card-title-text>
+        </md-card-title>
+        
+        <md-card-content layout="column" layout-align="space-between">
+            
+            
+            
+            <md-card layout="row" ng-repeat="stansa in song.stansas">
+                <md-card-content layout="row">
+                    <div style="margin-right: 10px">{{stansa.no}}</div>
+                    <div><pre>{{stansa.lines}}</pre></div>                        
+                </md-card-content>
+            </md-card>
+            
+            
+            
+            
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button ng-href="#/song_edit/{{song.index_no}}">Edit</md-button>
+            <md-button>Refresh</md-button>
+        </md-card-actions>
+    </md-card>
+</div>

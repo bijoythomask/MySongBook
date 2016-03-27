@@ -28,3 +28,6 @@ md-content {
   margin: 30px;
   height: 100px; }
 
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: white; }
+

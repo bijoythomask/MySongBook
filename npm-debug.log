@@ -1,0 +1,225 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose readDependencies loading dependencies from /home/bijoy/workspace/NetBeansProjects/MySongBook/package.json
+5 verbose install where, deps [ '/home/bijoy/workspace/NetBeansProjects/MySongBook',
+5 verbose install   [ 'karma',
+5 verbose install     'protractor',
+5 verbose install     'http-server',
+5 verbose install     'bower',
+5 verbose install     'shelljs',
+5 verbose install     'karma-junit-reporter',
+5 verbose install     'selenium-webdriver' ] ]
+6 verbose install where, peers [ '/home/bijoy/workspace/NetBeansProjects/MySongBook', [] ]
+7 verbose installManyTop reading for lifecycle /home/bijoy/workspace/NetBeansProjects/MySongBook/package.json
+8 info preinstall MySongBook@1.0.0
+9 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/bower/package.json
+10 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/http-server/package.json
+11 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma/package.json
+12 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-chrome-launcher/package.json
+13 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-coffee-preprocessor/package.json
+14 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-firefox-launcher/package.json
+15 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-html2js-preprocessor/package.json
+16 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-jasmine/package.json
+17 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-junit-reporter/package.json
+18 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-phantomjs-launcher/package.json
+19 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-requirejs/package.json
+20 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-script-launcher/package.json
+21 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/protractor/package.json
+22 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/requirejs/package.json
+23 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/selenium-webdriver/package.json
+24 verbose installManyTop reading scoped package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/shelljs/package.json
+25 info package.json karma-phantomjs-launcher@0.1.4 No README data
+26 info package.json http-server@0.6.1 No license field.
+27 info package.json requirejs@2.1.22 No license field.
+28 info package.json shelljs@0.2.6 No license field.
+29 info package.json karma@0.10.10 No license field.
+30 verbose readDependencies loading dependencies from /home/bijoy/workspace/NetBeansProjects/MySongBook/package.json
+31 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/bower/package.json
+32 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/http-server/package.json
+33 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma/package.json
+34 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-chrome-launcher/package.json
+35 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-coffee-preprocessor/package.json
+36 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-firefox-launcher/package.json
+37 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-html2js-preprocessor/package.json
+38 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-jasmine/package.json
+39 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-junit-reporter/package.json
+40 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-phantomjs-launcher/package.json
+41 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-requirejs/package.json
+42 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-script-launcher/package.json
+43 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/protractor/package.json
+44 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/requirejs/package.json
+45 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/selenium-webdriver/package.json
+46 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/shelljs/package.json
+47 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/bower/package.json
+48 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/http-server/package.json
+49 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/karma/package.json
+50 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/protractor/package.json
+51 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/r.js/package.json
+52 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/shjs/package.json
+53 verbose targetResolver reading package data from /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/webdriver-manager/package.json
+54 verbose already installed skipping bower@^1.3.1 /home/bijoy/workspace/NetBeansProjects/MySongBook
+55 verbose already installed skipping shelljs@^0.2.6 /home/bijoy/workspace/NetBeansProjects/MySongBook
+56 verbose already installed skipping karma-junit-reporter@^0.2.2 /home/bijoy/workspace/NetBeansProjects/MySongBook
+57 verbose already installed skipping selenium-webdriver@^2.45.1 /home/bijoy/workspace/NetBeansProjects/MySongBook
+58 verbose already installed skipping karma@~0.10 /home/bijoy/workspace/NetBeansProjects/MySongBook
+59 verbose already installed skipping protractor@^2.0.0 /home/bijoy/workspace/NetBeansProjects/MySongBook
+60 verbose already installed skipping http-server@^0.6.1 /home/bijoy/workspace/NetBeansProjects/MySongBook
+61 silly install resolved []
+62 info build /home/bijoy/workspace/NetBeansProjects/MySongBook
+63 info linkStuff MySongBook@1.0.0
+64 silly linkStuff MySongBook@1.0.0 has /home/bijoy/workspace/NetBeansProjects as its parent node_modules
+65 verbose linkBins MySongBook@1.0.0
+66 verbose linkMans MySongBook@1.0.0
+67 verbose rebuildBundles MySongBook@1.0.0
+68 verbose rebuildBundles [ '.bin',
+68 verbose rebuildBundles   'bower',
+68 verbose rebuildBundles   'http-server',
+68 verbose rebuildBundles   'karma',
+68 verbose rebuildBundles   'karma-chrome-launcher',
+68 verbose rebuildBundles   'karma-coffee-preprocessor',
+68 verbose rebuildBundles   'karma-firefox-launcher',
+68 verbose rebuildBundles   'karma-html2js-preprocessor',
+68 verbose rebuildBundles   'karma-jasmine',
+68 verbose rebuildBundles   'karma-junit-reporter',
+68 verbose rebuildBundles   'karma-phantomjs-launcher',
+68 verbose rebuildBundles   'karma-requirejs',
+68 verbose rebuildBundles   'karma-script-launcher',
+68 verbose rebuildBundles   'protractor',
+68 verbose rebuildBundles   'requirejs',
+68 verbose rebuildBundles   'selenium-webdriver',
+68 verbose rebuildBundles   'shelljs' ]
+69 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-chrome-launcher
+70 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-chrome-launcher
+71 info preinstall karma-chrome-launcher@0.1.12
+72 info linkStuff karma-chrome-launcher@0.1.12
+73 silly linkStuff karma-chrome-launcher@0.1.12 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+74 verbose linkBins karma-chrome-launcher@0.1.12
+75 verbose linkMans karma-chrome-launcher@0.1.12
+76 verbose rebuildBundles karma-chrome-launcher@0.1.12
+77 verbose rebuildBundles [ '.bin', 'which' ]
+78 info install karma-chrome-launcher@0.1.12
+79 info postinstall karma-chrome-launcher@0.1.12
+80 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-coffee-preprocessor
+81 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-coffee-preprocessor
+82 info preinstall karma-coffee-preprocessor@0.1.3
+83 info linkStuff karma-coffee-preprocessor@0.1.3
+84 silly linkStuff karma-coffee-preprocessor@0.1.3 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+85 verbose linkBins karma-coffee-preprocessor@0.1.3
+86 verbose linkMans karma-coffee-preprocessor@0.1.3
+87 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+88 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+89 info install karma-coffee-preprocessor@0.1.3
+90 info postinstall karma-coffee-preprocessor@0.1.3
+91 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-firefox-launcher
+92 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-firefox-launcher
+93 info preinstall karma-firefox-launcher@0.1.7
+94 info linkStuff karma-firefox-launcher@0.1.7
+95 silly linkStuff karma-firefox-launcher@0.1.7 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+96 verbose linkBins karma-firefox-launcher@0.1.7
+97 verbose linkMans karma-firefox-launcher@0.1.7
+98 verbose rebuildBundles karma-firefox-launcher@0.1.7
+99 info install karma-firefox-launcher@0.1.7
+100 info postinstall karma-firefox-launcher@0.1.7
+101 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-html2js-preprocessor
+102 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-html2js-preprocessor
+103 info preinstall karma-html2js-preprocessor@0.1.0
+104 info linkStuff karma-html2js-preprocessor@0.1.0
+105 silly linkStuff karma-html2js-preprocessor@0.1.0 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+106 verbose linkBins karma-html2js-preprocessor@0.1.0
+107 verbose linkMans karma-html2js-preprocessor@0.1.0
+108 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+109 info install karma-html2js-preprocessor@0.1.0
+110 info postinstall karma-html2js-preprocessor@0.1.0
+111 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-jasmine
+112 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-jasmine
+113 info preinstall karma-jasmine@0.1.6
+114 info linkStuff karma-jasmine@0.1.6
+115 silly linkStuff karma-jasmine@0.1.6 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+116 verbose linkBins karma-jasmine@0.1.6
+117 verbose linkMans karma-jasmine@0.1.6
+118 verbose rebuildBundles karma-jasmine@0.1.6
+119 info install karma-jasmine@0.1.6
+120 info postinstall karma-jasmine@0.1.6
+121 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-phantomjs-launcher
+122 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-phantomjs-launcher
+123 info preinstall karma-phantomjs-launcher@0.1.4
+124 info linkStuff karma-phantomjs-launcher@0.1.4
+125 silly linkStuff karma-phantomjs-launcher@0.1.4 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+126 verbose linkBins karma-phantomjs-launcher@0.1.4
+127 verbose linkMans karma-phantomjs-launcher@0.1.4
+128 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+129 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+130 info install karma-phantomjs-launcher@0.1.4
+131 info postinstall karma-phantomjs-launcher@0.1.4
+132 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-requirejs
+133 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-requirejs
+134 info preinstall karma-requirejs@0.2.3
+135 info linkStuff karma-requirejs@0.2.3
+136 silly linkStuff karma-requirejs@0.2.3 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+137 verbose linkBins karma-requirejs@0.2.3
+138 verbose linkMans karma-requirejs@0.2.3
+139 verbose rebuildBundles karma-requirejs@0.2.3
+140 verbose rebuildBundles [ '.bin', 'eslint', 'eslint-config-standard', 'grunt-eslint' ]
+141 info install karma-requirejs@0.2.3
+142 info postinstall karma-requirejs@0.2.3
+143 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-script-launcher
+144 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/karma-script-launcher
+145 info preinstall karma-script-launcher@0.1.0
+146 info linkStuff karma-script-launcher@0.1.0
+147 silly linkStuff karma-script-launcher@0.1.0 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+148 verbose linkBins karma-script-launcher@0.1.0
+149 verbose linkMans karma-script-launcher@0.1.0
+150 verbose rebuildBundles karma-script-launcher@0.1.0
+151 info install karma-script-launcher@0.1.0
+152 info postinstall karma-script-launcher@0.1.0
+153 verbose rebuild bundle /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/requirejs
+154 info build /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/requirejs
+155 info preinstall requirejs@2.1.22
+156 info linkStuff requirejs@2.1.22
+157 silly linkStuff requirejs@2.1.22 has /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules as its parent node_modules
+158 verbose linkBins requirejs@2.1.22
+159 verbose link bins [ { 'r.js': './bin/r.js' },
+159 verbose link bins   '/home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin',
+159 verbose link bins   false ]
+160 verbose linkMans requirejs@2.1.22
+161 verbose rebuildBundles requirejs@2.1.22
+162 silly gentlyRm /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/r.js is being purged
+163 verbose gentlyRm don't care about contents; nuking /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/r.js
+164 silly vacuum-fs purging /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin/r.js
+165 silly vacuum-fs quitting because other entries in /home/bijoy/workspace/NetBeansProjects/MySongBook/node_modules/.bin
+166 info install requirejs@2.1.22
+167 info postinstall requirejs@2.1.22
+168 info install MySongBook@1.0.0
+169 info postinstall MySongBook@1.0.0
+170 verbose unsafe-perm in lifecycle true
+171 info MySongBook@1.0.0 Failed to exec postinstall script
+172 verbose stack Error: MySongBook@1.0.0 postinstall: `bower update`
+172 verbose stack Exit status 1
+172 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+172 verbose stack     at emitTwo (events.js:87:13)
+172 verbose stack     at EventEmitter.emit (events.js:172:7)
+172 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+172 verbose stack     at emitTwo (events.js:87:13)
+172 verbose stack     at ChildProcess.emit (events.js:172:7)
+172 verbose stack     at maybeClose (internal/child_process.js:821:16)
+172 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+173 verbose pkgid MySongBook@1.0.0
+174 verbose cwd /home/bijoy/workspace/NetBeansProjects/MySongBook
+175 error Linux 4.2.0-30-generic
+176 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+177 error node v4.3.1
+178 error npm  v2.14.12
+179 error code ELIFECYCLE
+180 error MySongBook@1.0.0 postinstall: `bower update`
+180 error Exit status 1
+181 error Failed at the MySongBook@1.0.0 postinstall script 'bower update'.
+181 error This is most likely a problem with the MySongBook package,
+181 error not with npm itself.
+181 error Tell the author that this fails on your system:
+181 error     bower update
+181 error You can get their info via:
+181 error     npm owner ls MySongBook
+181 error There is likely additional logging output above.
+182 verbose exit [ 1, true ]
