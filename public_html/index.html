@@ -22,38 +22,34 @@
             <h1>My Hymn Book</h1>
         </md-toolbar>
         
-        <div flex layout="row"   >
+        <div layout="row">
            
             <div layout="column" flex ='30' id="songslist" ng-cloak >
-                 <md-toolbar >
-                            <div class="md-toolbar-tools">
-                                <h2>
-                                    <span>Songs</span>
-                                </h2>
-                                <span flex></span>
+                <md-toolbar >
+                    <div class="md-toolbar-tools">
+                        <h2>
+                            <span>Songs</span>
+                        </h2>
+                        <span flex></span>
 
-                                <md-button class="md-icon-button" aria-label="More" ng-href="#/song_add">
-                                    <md-icon md-svg-icon="img/icons/add.svg" ></md-icon>
-                                </md-button>
-                            </div>
-                        </md-toolbar> 
-               
-                <md-content class="md-whiteframe-z2" ng-controller="smartapps.mysongbook.songListController as listCntrl"  >
-                    
-                         
-                        <md-list  flex>
-                            <md-list-item  ng-repeat="item in songs" ng-href="#/songs/{{$index}}" >
-                                <h5>{{item.songNumber}} {{item.songTitle}}</h5>
-                            </md-list-item>
-                        </md-list>
-                    
+                 
+                    </div>
+                </md-toolbar> 
+
+                <md-content flex class="md-whiteframe-z2" ng-controller="smartapps.mysongbook.songListController as listCntrl"  >
+                    <md-list flex>
+                        <md-list-item  ng-repeat="item in songs" ng-href="#/songs/{{$index}}" >
+                            <h5>{{item.songNumber}} {{item.songTitle}}</h5>
+                        </md-list-item>
+                    </md-list>
+                    <md-button class="md-fab md-mini md-primary md-fab-top-right" aria-label="More" ng-href="#/song_add">
+                     <md-icon md-svg-icon="img/icons/add.svg" ></md-icon>
+                    </md-button>
                 </md-content>
-                
-
             </div>
             
-            <div layout="column" flex id="songView" ng-cloak>
-                    <div ng-view></div>
+            <div layout="column" flex >
+                    <div ng-view felx ></div>
             </div>
          
             

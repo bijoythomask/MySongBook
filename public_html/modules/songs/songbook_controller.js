@@ -65,21 +65,21 @@ angular.module('smartapps.mysongbook', [
 
                 $scope.languages = ["ENGLISH", "MALAYALAM", "HINDI"];
                 $scope.song = {
-                    songNumber: 1,
-                    songTitle: 'Nuclear Missile Defense System',
-                    songLanguage: 'ENGLISH',
+                    songNumber: $scope.songs.length,
+                    songTitle: 'Song Title...',
+                    songLanguage: "ENGLISH",
                     stansas : [
                     {
                         no: 1,
-                        lines: "empty text"
+                        lines: "..."
                     },
                     {
                         no: 2,
-                        lines: "empty text"
+                        lines: "..."
                     },
                     {
                         no: 3,
-                        lines: "empty text"
+                        lines: "..."
                     }
                     ]
                 };
@@ -115,6 +115,10 @@ angular.module('smartapps.mysongbook', [
                     $scope.songs.$save($scope.song);
                     $location.path("/songs/"+$scope.song.index_no)
                     
+                };
+                
+                $scope.removeStansa = function(index){
+                    $scope.song.stansas.splice(index,1 );
                 };
 
             }])

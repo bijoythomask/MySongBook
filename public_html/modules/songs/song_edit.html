@@ -1,4 +1,4 @@
-<div ng-controller="smartapps.mysongbook.songEditController">
+<div  ng-controller="smartapps.mysongbook.songEditController" flex >
     <form name="editSongForm" ng-submit="update()">
 
         <md-toolbar >
@@ -7,12 +7,10 @@
                     <span>Update song</span>
                 </h1>
                 <span flex></span>
-                <md-button class="md-icon-button" aria-label="addStansa" ng-click="addStansa()">
-                    <md-icon md-svg-icon="img/icons/folder-plus.svg"></md-icon>
-                </md-button>
+                
             </div>
         </md-toolbar>
-        <md-content >
+        <md-content>
 
             <md-content  layout-padding layout="row" layout-sm="column">
                 <md-input-container>
@@ -25,38 +23,47 @@
                         <md-option ng-repeat="language in languages" value="{{language}}">{{language}}</md-option>
                     </md-select>
                 </md-input-container>
+                <md-button class="md-fab md-mini md-fab-bottom-right md-primary"  aria-label="addStansa" ng-click="addStansa()">
+                    <md-icon md-svg-icon="img/icons/add_stansa.svg"></md-icon>
+                </md-button>
+                
             </md-content>
 
-            <md-input-container >
+            <md-input-container  class="md-block" flex>
                 <label>Song Title</label>
                 <input  required name="title" ng-model="song.songTitle" >
             </md-input-container>
-
-            <md-list>
-                <md-list-item  ng-repeat="stansa in song.stansas">
-                    <md-input-container >
-                        <h4>{{stansa.no}}</h4>
+            
+            <md-list flex>
+                <md-list-item layout="row"  ng-repeat="stansa in song.stansas" class="md-whiteframe-8dp">
+                    <md-input-container layout-align="start start">
+                        {{stansa.no}}
                     </md-input-container>
-
-                    <md-input-container flex>
-                        <textarea ng-model="stansa.lines" rows="4" ></textarea>
-                    </md-input-container>
-                    <md-input-container >
-                        <md-radio-group layout="row" ng-model="data.group1" >
-                            <md-radio-button value="Stansa" class="md-primary">Stansa</md-radio-button>
-                            <md-radio-button value="Chorus">Chorus</md-radio-button>
-                        </md-radio-group>
-                    </md-input-container>
+                    <div layout="column" flex>
+                        <md-input-container >
+                            <textarea ng-model="stansa.lines"  ></textarea>
+                        </md-input-container>
+                        <md-input-container >
+                            <md-radio-group layout="row" ng-model="data.group1" >
+                                <md-radio-button value="Stansa" class="md-primary">Stansa</md-radio-button>
+                                <md-radio-button value="Chorus">Chorus</md-radio-button>
+                            </md-radio-group>
+                        </md-input-container>
+                        <md-button class="md-mini md-fab md-fab-bottom-right" ng-click="removeStansa($index)">
+                            <md-icon md-svg-icon="img/icons/remove.svg"></md-icon>
+                        </md-button>
+                    </div>
                 </md-list-item>
+                   
             </md-list>
 
 
         </md-content>
-        <div>
+        <md-content>
             <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
                 <md-button  type = "submit" class="md-raised md-primary" >Update</md-button>
-                <md-button class="md-raised">Cancel</md-button>
+                <md-button class="md-raised" ng-href="#/songs/{{song.index_no}}">Cancel</md-button>
             </section>
-        </div>
+        </md-content>
     </form>
 </div>
